@@ -1,0 +1,156 @@
+body{
+    padding: 10px;
+    background-color: #bbc0ba;
+    font-size: 125%;
+}
+
+h1{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 48pt;
+    text-align: center;
+}
+
+h2{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 24pt;
+}
+
+h3{
+    font-family: helvetica, arial, sans-serif;
+    }
+
+p{
+    font-family: helvetica, arial, sans-serif;
+    font-size: medium;
+    padding: 20px;
+}
+
+/* img{
+    padding: 10px;
+    width: 45%;
+    margin: auto;
+    border: dotted #af78d6 10px;
+} */
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    background-color: rgb(96, 5, 96);
+    font-size: 100%;
+    padding: 15px;
+}
+
+
+nav a{
+    color: antiquewhite;
+    font-family: Helvetica, Arial, Helvetica, sans-serif ;
+}
+
+.active {
+    text-decoration: overline;
+    /* text-decoration-color: goldenrod; */
+    text-decoration-thickness: 10px;
+    /* border: solid black 5px; */
+}
+
+#banner {
+    width: 100%;
+}
+
+/* .main #litwomen{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+} */
+
+.litwomen {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    row-gap: 15px;
+}
+
+.litwomen img {
+    margin: auto;
+    width: 90%;
+    display: block;
+    border: double rgb(96, 23, 96) 5px;
+}
+
+.litwomen div {
+    border: solid rgb(96, 23, 96) 2px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.193);
+}
+
+.historywomen {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    row-gap: 15px;
+}
+
+.historywomen img {
+    margin: auto;
+    width: 90%;
+    display: block;
+    border: double rgb(96, 23, 96) 5px;
+}
+
+.historywomen div {
+    border: solid rgb(96, 23, 96) 2px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.193);
+}
+
+.skip {
+    position: absolute;
+    background: white;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: left 1s ease-out;
+    z-index: 1;
+    top: -200px;
+    left: -400px;
+}
+
+/* ul{
+    list-style-type: disc;
+} */
+
+
+
+.grid div{
+    border: solid black 2px;
+    border-radius: 15px;
+    background-color: white;
+    /* Set border properties, padding, and background color */
+
+}
+
+.grid img{
+    width: 90%;
+    margin: auto;
+    display: block;
+    /* Set width, margin, and display */
+}
+
+/* grid-container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 1 fr;
+} */
+
+.skip{
+    position: absolute;
+}
+
+
+div{
+    margin: auto;
+}
